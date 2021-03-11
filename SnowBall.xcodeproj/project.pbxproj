@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790755BE6EC44C13609DA254 /* Pods_SnowBall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838045EFB3C109517A1FEE49 /* Pods_SnowBall.framework */; };
 		EFC890F825E9016F00B45924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC890F725E9016F00B45924 /* AppDelegate.swift */; };
 		EFC890FA25E9016F00B45924 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC890F925E9016F00B45924 /* SceneDelegate.swift */; };
 		EFC890FC25E9016F00B45924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC890FB25E9016F00B45924 /* ViewController.swift */; };
 		EFC890FF25E9016F00B45924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC890FD25E9016F00B45924 /* Main.storyboard */; };
 		EFC8910125E9017500B45924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC8910025E9017500B45924 /* Assets.xcassets */; };
 		EFC8910425E9017500B45924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC8910225E9017500B45924 /* LaunchScreen.storyboard */; };
+		EFC8911525F8AE6000B45924 /* PurposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC8911425F8AE6000B45924 /* PurposeViewController.swift */; };
+		EFC8911C25F8C35100B45924 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC8911B25F8C35100B45924 /* ChartViewController.swift */; };
+		EFC8913425F9B0B500B45924 /* AddContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC8913325F9B0B500B45924 /* AddContentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		838045EFB3C109517A1FEE49 /* Pods_SnowBall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnowBall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E14390ABFFC46D503A0686 /* Pods-SnowBall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowBall.debug.xcconfig"; path = "Target Support Files/Pods-SnowBall/Pods-SnowBall.debug.xcconfig"; sourceTree = "<group>"; };
+		98895DF19809A81D25482780 /* Pods-SnowBall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowBall.release.xcconfig"; path = "Target Support Files/Pods-SnowBall/Pods-SnowBall.release.xcconfig"; sourceTree = "<group>"; };
 		EFC890F425E9016F00B45924 /* SnowBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC890F725E9016F00B45924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC890F925E9016F00B45924 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		EFC8910025E9017500B45924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFC8910325E9017500B45924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFC8910525E9017500B45924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC8911425F8AE6000B45924 /* PurposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurposeViewController.swift; sourceTree = "<group>"; };
+		EFC8911B25F8C35100B45924 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		EFC8913325F9B0B500B45924 /* AddContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContentsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790755BE6EC44C13609DA254 /* Pods_SnowBall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F7AA5CBC97D6B7E616FF4A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				838045EFB3C109517A1FEE49 /* Pods_SnowBall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98EDA1FF11B653F8DEA6E321 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85E14390ABFFC46D503A0686 /* Pods-SnowBall.debug.xcconfig */,
+				98895DF19809A81D25482780 /* Pods-SnowBall.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EFC890EB25E9016E00B45924 = {
 			isa = PBXGroup;
 			children = (
 				EFC890F625E9016F00B45924 /* SnowBall */,
 				EFC890F525E9016F00B45924 /* Products */,
+				98EDA1FF11B653F8DEA6E321 /* Pods */,
+				2F7AA5CBC97D6B7E616FF4A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +87,41 @@
 			isa = PBXGroup;
 			children = (
 				EFC890F725E9016F00B45924 /* AppDelegate.swift */,
+				EFC8911225F8AD9200B45924 /* Model */,
 				EFC890F925E9016F00B45924 /* SceneDelegate.swift */,
-				EFC890FB25E9016F00B45924 /* ViewController.swift */,
-				EFC890FD25E9016F00B45924 /* Main.storyboard */,
+				EFC8911125F8AD8300B45924 /* Controller */,
+				EFC8911025F8AD6F00B45924 /* View */,
 				EFC8910025E9017500B45924 /* Assets.xcassets */,
 				EFC8910225E9017500B45924 /* LaunchScreen.storyboard */,
 				EFC8910525E9017500B45924 /* Info.plist */,
 			);
 			path = SnowBall;
+			sourceTree = "<group>";
+		};
+		EFC8911025F8AD6F00B45924 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFC890FD25E9016F00B45924 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFC8911125F8AD8300B45924 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EFC890FB25E9016F00B45924 /* ViewController.swift */,
+				EFC8911B25F8C35100B45924 /* ChartViewController.swift */,
+				EFC8911425F8AE6000B45924 /* PurposeViewController.swift */,
+				EFC8913325F9B0B500B45924 /* AddContentsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EFC8911225F8AD9200B45924 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFC8910825E9017500B45924 /* Build configuration list for PBXNativeTarget "SnowBall" */;
 			buildPhases = (
+				4AA627D76B04F571E619C690 /* [CP] Check Pods Manifest.lock */,
 				EFC890F025E9016F00B45924 /* Sources */,
 				EFC890F125E9016F00B45924 /* Frameworks */,
 				EFC890F225E9016F00B45924 /* Resources */,
+				0BF9FC6A200A428454CECAF6 /* [CP] Copy Pods Resources */,
+				4E0BF006B29E90C175B51889 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +192,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BF9FC6A200A428454CECAF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnowBall/Pods-SnowBall-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnowBall/Pods-SnowBall-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnowBall/Pods-SnowBall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AA627D76B04F571E619C690 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnowBall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E0BF006B29E90C175B51889 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnowBall/Pods-SnowBall-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnowBall/Pods-SnowBall-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnowBall/Pods-SnowBall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EFC890F025E9016F00B45924 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC8913425F9B0B500B45924 /* AddContentsViewController.swift in Sources */,
 				EFC890FC25E9016F00B45924 /* ViewController.swift in Sources */,
 				EFC890F825E9016F00B45924 /* AppDelegate.swift in Sources */,
 				EFC890FA25E9016F00B45924 /* SceneDelegate.swift in Sources */,
+				EFC8911525F8AE6000B45924 /* PurposeViewController.swift in Sources */,
+				EFC8911C25F8C35100B45924 /* ChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +405,7 @@
 		};
 		EFC8910925E9017500B45924 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E14390ABFFC46D503A0686 /* Pods-SnowBall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +425,7 @@
 		};
 		EFC8910A25E9017500B45924 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98895DF19809A81D25482780 /* Pods-SnowBall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

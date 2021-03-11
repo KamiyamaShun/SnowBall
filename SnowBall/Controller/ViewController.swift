@@ -26,15 +26,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.reserveAmount.keyboardType = UIKeyboardType.numberPad
-        self.reserveYear.keyboardType = UIKeyboardType.numberPad
-        self.reserveMonth.keyboardType = UIKeyboardType.numberPad
-        self.yeild.keyboardType = UIKeyboardType.numberPad
-        
         reserveAmount.delegate = self
         reserveYear.delegate = self
         reserveMonth.delegate = self
         yeild.delegate = self
+        
+        reserveAmount.keyboardType = .decimalPad
+        reserveYear.keyboardType = .decimalPad
+        reserveMonth.keyboardType = .decimalPad
+        yeild.keyboardType = .decimalPad
         
     }
 
@@ -83,5 +83,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
     }
+    
+    
 }
 
