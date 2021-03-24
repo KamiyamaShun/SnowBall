@@ -14,6 +14,8 @@
 		EFC890FF25E9016F00B45924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC890FD25E9016F00B45924 /* Main.storyboard */; };
 		EFC8910125E9017500B45924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC8910025E9017500B45924 /* Assets.xcassets */; };
 		EFC8910425E9017500B45924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC8910225E9017500B45924 /* LaunchScreen.storyboard */; };
+		EFC891632609DE1300B45924 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC891622609DE1300B45924 /* ViewController2.swift */; };
+		EFC89166260AE2A400B45924 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC89165260AE2A200B45924 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		EFC8910025E9017500B45924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFC8910325E9017500B45924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFC8910525E9017500B45924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC891622609DE1300B45924 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		EFC89165260AE2A200B45924 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				EFC890FB25E9016F00B45924 /* ViewController.swift */,
+				EFC891622609DE1300B45924 /* ViewController2.swift */,
+				EFC89165260AE2A200B45924 /* ViewController3.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -247,7 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC89166260AE2A400B45924 /* ViewController3.swift in Sources */,
 				EFC890FC25E9016F00B45924 /* ViewController.swift in Sources */,
+				EFC891632609DE1300B45924 /* ViewController2.swift in Sources */,
 				EFC890F825E9016F00B45924 /* AppDelegate.swift in Sources */,
 				EFC890FA25E9016F00B45924 /* SceneDelegate.swift in Sources */,
 			);

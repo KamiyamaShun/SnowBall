@@ -31,11 +31,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         reserveMonth.delegate = self
         yeild.delegate = self
         
-        reserveAmount.keyboardType = .decimalPad
-        reserveYear.keyboardType = .decimalPad
-        reserveMonth.keyboardType = .decimalPad
-        yeild.keyboardType = .decimalPad
-        
     }
 
     @IBAction func calc(_ sender: Any) {
