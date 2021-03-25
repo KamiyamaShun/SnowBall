@@ -207,7 +207,6 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="VfA-T9-h2p"/>
                         <segue destination="g8f-qY-Oq3" kind="relationship" relationship="viewControllers" id="01M-aS-cfB"/>
-                        <segue destination="OgM-DJ-ry2" kind="relationship" relationship="viewControllers" id="WqV-qq-qp1"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fO9-fX-GKf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -348,22 +347,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cxr-V0-eUT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="976.79999999999995" y="812.74362818590714"/>
-        </scene>
-        <!--積立期間-->
-        <scene sceneID="0Vi-41-cHy">
-            <objects>
-                <viewController id="OgM-DJ-ry2" customClass="ViewController3" customModule="SnowBall" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QLp-8z-6z3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="fkf-BH-9jl"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="積立期間" id="XSW-pb-mwB"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cS2-ss-iXy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="38" y="813"/>
         </scene>
     </scenes>
     <resources>
