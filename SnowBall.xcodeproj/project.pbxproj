@@ -16,6 +16,7 @@
 		EFC8910425E9017500B45924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC8910225E9017500B45924 /* LaunchScreen.storyboard */; };
 		EFC891632609DE1300B45924 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC891622609DE1300B45924 /* ViewController2.swift */; };
 		EFC8916A260D66CE00B45924 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC89169260D66CE00B45924 /* ViewController3.swift */; };
+		EFC8916D260D824B00B45924 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC8916C260D824B00B45924 /* ViewController4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		EFC8910525E9017500B45924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFC891622609DE1300B45924 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		EFC89169260D66CE00B45924 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		EFC8916C260D824B00B45924 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				EFC890FB25E9016F00B45924 /* ViewController.swift */,
 				EFC891622609DE1300B45924 /* ViewController2.swift */,
 				EFC89169260D66CE00B45924 /* ViewController3.swift */,
+				EFC8916C260D824B00B45924 /* ViewController4.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC8916A260D66CE00B45924 /* ViewController3.swift in Sources */,
+				EFC8916D260D824B00B45924 /* ViewController4.swift in Sources */,
 				EFC890FC25E9016F00B45924 /* ViewController.swift in Sources */,
 				EFC891632609DE1300B45924 /* ViewController2.swift in Sources */,
 				EFC890F825E9016F00B45924 /* AppDelegate.swift in Sources */,
