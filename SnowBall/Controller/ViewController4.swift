@@ -37,14 +37,15 @@ class ViewController4: UIViewController,UITextFieldDelegate {
         month2 = Int(month.text!)!
         
         let totalMonth = year2 * 12 + month2
-        let denominator = log(Double(totalMonth) - 1.0)
-        let numerator = log(Double(amount) / Double(monthlyAmount) - 2.0 * Double(totalMonth))
-        let total = numerator / denominator
+        let denominator = Double(totalMonth) - 1.0
+        let numerator = log10(Double(amount) / Double(monthlyAmount) - 2.0 * Double(totalMonth))
+        let total = pow(10.0, numerator / denominator)
         
-        print(totalMonth)
         print(denominator)
         print(numerator)
+        print(denominator / numerator)
         print(total)
+        print(total * 12 / 100)
     }
     
     @IBAction func reset(_ sender: Any) {
