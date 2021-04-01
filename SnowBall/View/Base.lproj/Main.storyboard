@@ -336,7 +336,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="TNc-ZH-ihf">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="l8l-2Y-vvE" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="l8l-2Y-vvE" customClass="TabBarController" customModule="SnowBall" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OrD-vV-qb0">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
